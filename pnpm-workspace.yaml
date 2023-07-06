@@ -6,3 +6,4 @@ packages:
   # exclude packages that are inside test directories
   # - '!**/test/**'
   - demo-nuxt
+  - demo-rollup

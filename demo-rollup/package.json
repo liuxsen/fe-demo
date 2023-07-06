@@ -1,0 +1,22 @@
+{
+  "name": "demo-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup src/main.js --file bundle.js --format iife",
+    "build2": "rollup src/main.js --file bundle.js --format cjs",
+    "build3": "rollup src/main.js --file bundle.js --format umd --name mybundle",
+    "build4": "rollup --config build/rollup.config.mjs",
+    "build5": "rollup --config build/rollup.config.ts --configPlugin typescript"
+    
+  },
+  "devDependencies": {
+    "rollup": "3.26.1",
+    "@rollup/plugin-typescript": "11.1.2",
+    "typescript": "5.1.6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

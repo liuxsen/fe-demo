@@ -1,0 +1,19 @@
+{
+  "name": "demo-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node myInstall.js"
+  },
+  "devDependencies": {
+    "rollup": "3.26.1",
+    "@rollup/plugin-typescript": "11.1.2",
+    "typescript": "5.1.6",
+    "@rollup/plugin-commonjs": "25.0.2",
+    "@rollup/plugin-json": "6.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

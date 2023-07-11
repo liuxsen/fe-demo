@@ -7,3 +7,5 @@ packages:
   # - '!**/test/**'
   - demo-nuxt
   - demo-rollup
+  - demo-scripts/*
+  - demo-ts

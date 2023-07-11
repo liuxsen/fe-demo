@@ -1,0 +1,22 @@
+{
+  "name": "demo-ts",
+  "version": "1.0.0",
+  "description": "## 初始化 ts项目",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslib": "2.6.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "5.1.6",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6"
+  }
+}

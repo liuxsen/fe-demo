@@ -78,3 +78,8 @@ export const HelloWorld = () => _jsx("h1", { children: "Hello world" });
 
 如果ts项目配置 jsx: react-jsx 项目将不需要引入react；
 如果ts项目配置 jsx: react 项目将需要引入 react  `import React, {useState} from 'react'`
+
+
+## 添加eslint
+
+- [参考](https://github.com/antfu/eslint-config/blob/main/README.md)

@@ -1,6 +1,7 @@
 {
   "include": [
-    "./src"
+    "./src",
+    "./types"
     // "./demos", // 不包含demo的源码
   ],
   "compilerOptions": {
@@ -15,7 +16,7 @@
     // "disableReferencedProjectLoad": true,             /* Reduce the number of projects loaded automatically by TypeScript. */
 
     /* Language and Environment */
-    "target": "ES5", /* target 低版本 Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "target": "ES2015", /* target 低版本 Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "lib": [
       "ESNext",
       "WebWorker",
@@ -35,10 +36,11 @@
     /* Modules */
     "module": "ESNext", /* CommonJS UMD AMD System ESNext ES2020 Specify what module code is generated. */
     // "rootDir": "./",                                  /* Specify the root folder within your source files. */
-    "moduleResolution": "Node16", /* Specify how TypeScript looks up a file from a given module specifier. */
+    "moduleResolution": "Node", /* Specify how TypeScript looks up a file from a given module specifier. */
     "baseUrl": ".", /* Specify the base directory to resolve non-relative module names. */
     "paths": {
-      "tslib": ["../node_modules/tslib/tslib.d.ts"] // 这里的路径是相对于baseUrl的，如果配置之后，需要注意
+      "@/*": ["src/*"],
+      "tslib": ["./node_modules/tslib/tslib.d.ts"] // 这里的路径是相对于baseUrl的，如果配置之后，需要注意
     }, /* Specify a set of entries that re-map imports to additional lookup locations. */
     "rootDirs": [
       "./src"

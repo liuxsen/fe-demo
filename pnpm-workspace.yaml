@@ -9,3 +9,4 @@ packages:
   - demo-rollup
   - demo-scripts/*
   - demo-ts
+  - demo-react
